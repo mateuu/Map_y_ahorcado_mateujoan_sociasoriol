@@ -41,11 +41,22 @@ int main()
 
 	map[pX][pY] = '-';
 
-	if (accio == 1 && pX > 0) pX--;
-	else if (accio == 2 && pX < 9) pX++;
-	else if (accio == 3 && pY > 0) pY--;
-	else if (accio == 4 && pY < 9) pY++;
-
+	switch (accio) {
+	case 1:
+		if (pX > 0) pX--;
+		break;
+	case 2:
+		if (pX < 9) pX++;
+		break;
+	case 3:
+		if (pY > 0) pY--;
+		break;
+	case 4:
+		if (pY < 9) pY++;
+		break;
+	default:
+		break;
+	}
 	map[pX][pY] = 'X';
 
 	if (pX == 4 && pY == 4)
@@ -69,7 +80,7 @@ int main()
 
 			for (int i = 0; i < longparaula; i++)
 			{
-				if (paraula[i] == lletra && estatparaula[i] == '-')
+				if (paraula[i] == lletra && estatparaula[i] == '_')
 				{
 					estatparaula[i] = lletra;
 					lletracorrecte++;
