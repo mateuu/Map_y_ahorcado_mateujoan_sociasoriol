@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\oriol\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\",
+  "WorkspaceRootPath": "C:\\Users\\jomac\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC8DDE62-5C20-4656-AFCA-A8BBA5247BF6}|socias_oriol_mateu_joan\\socias_oriol_mateu_joan.vcxproj|C:\\Users\\oriol\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EC8DDE62-5C20-4656-AFCA-A8BBA5247BF6}|socias_oriol_mateu_joan\\socias_oriol_mateu_joan.vcxproj|C:\\Users\\jomac\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC8DDE62-5C20-4656-AFCA-A8BBA5247BF6}|socias_oriol_mateu_joan\\socias_oriol_mateu_joan.vcxproj|solutionrelative:socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "socias_oriol_mateu_joan.cpp",
-              "DocumentMoniker": "C:\\Users\\oriol\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
+              "DocumentMoniker": "C:\\Users\\jomac\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
               "RelativeDocumentMoniker": "socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
-              "ToolTip": "C:\\Users\\oriol\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
+              "ToolTip": "C:\\Users\\jomac\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
               "RelativeToolTip": "socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCIAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-03T18:02:23.349Z",
               "EditorCaption": ""
