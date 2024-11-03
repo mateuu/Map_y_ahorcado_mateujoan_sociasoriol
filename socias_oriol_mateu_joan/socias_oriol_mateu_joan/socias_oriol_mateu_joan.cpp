@@ -9,8 +9,8 @@ int main()
 	int vides = 3;
 	int lletracorrecte = 0;
 	char paraula[] = "excelent";
-	int longparaula = 6;
-	char estatparaula[7] = "";
+	int longparaula = 8;
+	char estatparaula[9] = "________";
 
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < 10; j++) {
@@ -65,20 +65,63 @@ int main()
 		}
 	default:
 		printf("Accio no valida");
-}
+	}
+
 	map[pX][pY] = 'X';
 
 	if (pX == 4 && pY == 4)
 	{
-		printf("has trobat el repte del penjat! \n");
-		while (vides > 0 && lletracorrecte < longparaula) {
-		
+		printf("Has trobat el repte del penjat! \n");
+		while (vides > 0 && lletracorrecte < longparaula)
+		{
+
 			printf("Paraula: ");
 			for (int i = 0; i < longparaula; i++)
 			{
 				printf("%c", estatparaula[i]);
 			}
 			printf("\n");
+
+			char lletra;
+			printf("Donam una lletra: ");
+			scanf_s(" %c", &lletra, 1);
+
+			int encerts = 0;
+
+			for (int i = 0; i < longparaula; i++)
+			{
+				if (paraula[i] == lletra && estatparaula[i] == '-')
+				{
+					estatparaula[i] = lletra;
+					lletracorrecte++;
+					encerts = 1;
+				}
+			}
+
+			if (encerts)
+			{
+				printf("Lletra correcte. \n");
+			}
+			else
+			{
+				vides--;
+				printf("LLetra incorrecte. Et queden %d vides.\n", vides);
+			}
+
+
+			if (lletracorrecte == longparaula)
+			{
+				system("cls");
+				printf("Felicitats, has completat el repte. \n");
+			}
+			else
+			{
+				system("cls");
+				printf("Ho sento, has perdut el repte. \n");
+			}
+
+			break;
+
 		}
 	}
 }
