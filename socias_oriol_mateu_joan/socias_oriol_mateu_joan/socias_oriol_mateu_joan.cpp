@@ -32,40 +32,19 @@ int main()
 			}
 			printf("\n");
 		}
-	}
 
 	printf("Quina accio vols fer? \n");
-	printf("1. Moure amunt. \n 2. Moure abaix. \n 3. Moure esquerra. \n 4.Moure dreta.");
+	printf("1. Moure amunt. \n2. Moure abaix. \n3. Moure esquerra. \n4. Moure dreta. \n");
 
 	int accio;
 	scanf_s("%d", &accio);
 
 	map[pX][pY] = '-';
-	switch (accio)
-	{
-	case 1:
-		if (pX > 0)
-		{
-			pX--;
-		}
-	case 2:
-		if (pX < 9)
-		{
-			pX++;
-		}
-	case 3:
-		if (pY > 0)
-		{
-			pY--;
-		}
-	case 4:
-		if (pY < 9)
-		{
-			pY++;
-		}
-	default:
-		printf("Accio no valida");
-	}
+
+	if (accio == 1 && pX > 0) pX--;
+	else if (accio == 2 && pX < 9) pX++;
+	else if (accio == 3 && pY > 0) pY--;
+	else if (accio == 4 && pY < 9) pY++;
 
 	map[pX][pY] = 'X';
 
@@ -108,7 +87,7 @@ int main()
 				printf("LLetra incorrecte. Et queden %d vides.\n", vides);
 			}
 
-
+		}
 			if (lletracorrecte == longparaula)
 			{
 				system("cls");
@@ -119,9 +98,7 @@ int main()
 				system("cls");
 				printf("Ho sento, has perdut el repte. \n");
 			}
-
 			break;
-
 		}
 	}
 }
