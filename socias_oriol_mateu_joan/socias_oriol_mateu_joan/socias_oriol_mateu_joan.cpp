@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define MAPSIZE 10
 
 int main() 
 {
-	char map[10][10];
+	char map[MAPSIZE][MAPSIZE];
 	int pX = 0, pY = 0;
 	int vides = 3;
 	int lletracorrecte = 0;
@@ -12,8 +13,8 @@ int main()
 	int longparaula = 8;
 	char estatparaula[9] = "________";
 
-	for (int i = 0; i < 10; i++) {
-		for (int j = 0; j < 10; j++) {
+	for (int i = 0; i < MAPSIZE; i++) {
+		for (int j = 0; j < MAPSIZE; j++) {
 
 			map[i][j] = '-';
 		}
@@ -24,9 +25,9 @@ int main()
 	while (vides > 0)
 	{
 		system("cls");
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < MAPSIZE; i++)
 		{
-			for (int j = 0; j < 10; j++)
+			for (int j = 0; j < MAPSIZE; j++)
 			{
 				printf("%c", map[i][j]);
 			}
@@ -97,19 +98,18 @@ int main()
 				vides--;
 				printf("LLetra incorrecte. Et queden %d vides.\n", vides);
 			}
-
 		}
-			if (lletracorrecte == longparaula)
-			{
-				system("cls");
-				printf("Felicitats, has completat el repte. \n");
-			}
-			else
-			{
-				system("cls");
-				printf("Ho sento, has perdut el repte. \n");
-			}
-			break;
+		if (lletracorrecte == longparaula)
+		{
+			system("cls");
+			printf("Felicitats, has completat el repte. \n");
+		}
+		else
+		{
+			system("cls");
+			printf("Ho sento, has perdut el repte. \n");
+		}
+		break;
 		}
 	}
 }

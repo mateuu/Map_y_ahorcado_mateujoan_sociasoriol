@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +28,7 @@
               "RelativeDocumentMoniker": "socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
               "ToolTip": "C:\\Users\\jomac\\Documents\\GitHub\\Map_y_ahorcado_mateujoan_sociasoriol\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
               "RelativeToolTip": "socias_oriol_mateu_joan\\socias_oriol_mateu_joan.cpp",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswDoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-03T18:02:23.349Z",
               "EditorCaption": ""
